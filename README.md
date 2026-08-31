@@ -9,9 +9,11 @@ input→output lineage tracing, generated from the game's own craft definitions.
 - **Overview** — totals by group, command, skill (checked vs starter crafts),
   profession tier, clan rank, restriction, and craftable objects by item type.
   Every row click-throughs to the filtered list.
-- **Crafts** — search with a field selector (all fields, or just subcraft
-  names, input/output objects, echo text, skill checks, clans, races, …) plus
-  `field:word`, `"quoted phrase"` and `-word` syntax; stackable filters whose
+- **Crafts** — search across names, commands, objects, skills, clans, races
+  and mobs; as you type, chips offer to search that word in one field instead
+  (subcraft names, input/output objects, echo text, skill checks, …) with live
+  counts, and `field:word`, `"quoted phrase"` and `-word` syntax is shown
+  under the box; stackable filters whose
   drop-downs can be ordered by count or alphabetically; a **⬇ CSV** button
   that downloads the filtered list. Click a craft for its full
   phase-by-phase detail, including where each input comes from and where
